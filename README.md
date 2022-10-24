@@ -12,19 +12,5 @@ pip3 install -r requirements.txt
 
 ## Usage
 ```
-usage: favhash.py [-h] [-t TARGET] [-l LIST]
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -t TARGET, --target TARGET
-                        The hostname of the target, eg: github.com
-  -l LIST, --list LIST  List of target url saperated with new line
-```
-
-
-## Example
-```
-python3 favhash.py -t github.com
-
-python3 favhash.py -l test.txt
+python3 favhash.py http://example.com/favicon.ico
 ```
